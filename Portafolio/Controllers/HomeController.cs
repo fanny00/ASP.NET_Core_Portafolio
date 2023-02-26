@@ -2,6 +2,7 @@
 using Portafolio.Models;
 using System.Diagnostics;
 
+
 namespace Portafolio.Controllers
 {
     public class HomeController : Controller
@@ -15,7 +16,12 @@ namespace Portafolio.Controllers
 
         public IActionResult Index()
         {
-            return View("Index", "Fanny Campos A");
+            var persona = new Persona()
+            {
+                Nombre = "Fanny Campos",
+                Edad = 40
+            };
+            return View( persona );
         }
 
         public IActionResult Privacy()
