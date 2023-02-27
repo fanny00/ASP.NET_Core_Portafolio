@@ -17,8 +17,36 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\fanny\\source\\repos\\Portafolio\\Portafolio\\wwwroot\\imagenes\\amazon.png",
+      "PackagePath": "staticwebassets\\imagenes\\amazon.png"
+    },
+    {
+      "Id": "C:\\Users\\fanny\\source\\repos\\Portafolio\\Portafolio\\wwwroot\\imagenes\\dotnet-imagen-2.png",
+      "PackagePath": "staticwebassets\\imagenes\\dotnet-imagen-2.png"
+    },
+    {
       "Id": "C:\\Users\\fanny\\source\\repos\\Portafolio\\Portafolio\\wwwroot\\imagenes\\foto.jpeg",
       "PackagePath": "staticwebassets\\imagenes\\foto.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\fanny\\source\\repos\\Portafolio\\Portafolio\\wwwroot\\imagenes\\foto.png",
+      "PackagePath": "staticwebassets\\imagenes\\foto.png"
+    },
+    {
+      "Id": "C:\\Users\\fanny\\source\\repos\\Portafolio\\Portafolio\\wwwroot\\imagenes\\nyt (1).png",
+      "PackagePath": "staticwebassets\\imagenes\\nyt (1).png"
+    },
+    {
+      "Id": "C:\\Users\\fanny\\source\\repos\\Portafolio\\Portafolio\\wwwroot\\imagenes\\nyt.png",
+      "PackagePath": "staticwebassets\\imagenes\\nyt.png"
+    },
+    {
+      "Id": "C:\\Users\\fanny\\source\\repos\\Portafolio\\Portafolio\\wwwroot\\imagenes\\reddit.png",
+      "PackagePath": "staticwebassets\\imagenes\\reddit.png"
+    },
+    {
+      "Id": "C:\\Users\\fanny\\source\\repos\\Portafolio\\Portafolio\\wwwroot\\imagenes\\steam.png",
+      "PackagePath": "staticwebassets\\imagenes\\steam.png"
     },
     {
       "Id": "C:\\Users\\fanny\\source\\repos\\Portafolio\\Portafolio\\wwwroot\\js\\site.js",
