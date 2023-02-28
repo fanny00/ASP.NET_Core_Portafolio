@@ -45,6 +45,11 @@ namespace Portafolio.Controllers
         [HttpPost]
         public IActionResult Contacto(ContactoViewModel contactoViewModel)
         {
+            return RedirectToAction("Gracias");
+        }
+
+        public IActionResult Gracias()
+        {
             return View();
         }
 
