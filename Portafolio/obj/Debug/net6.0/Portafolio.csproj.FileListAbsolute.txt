@@ -29,3 +29,7 @@ C:\Users\fanny\source\repos\Portafolio\Portafolio\obj\Debug\net6.0\refint\Portaf
 C:\Users\fanny\source\repos\Portafolio\Portafolio\obj\Debug\net6.0\Portafolio.pdb
 C:\Users\fanny\source\repos\Portafolio\Portafolio\obj\Debug\net6.0\Portafolio.genruntimeconfig.cache
 C:\Users\fanny\source\repos\Portafolio\Portafolio\obj\Debug\net6.0\ref\Portafolio.dll
+C:\Users\fanny\source\repos\Portafolio\Portafolio\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\fanny\source\repos\Portafolio\Portafolio\bin\Debug\net6.0\SendGrid.dll
+C:\Users\fanny\source\repos\Portafolio\Portafolio\bin\Debug\net6.0\StarkbankEcdsa.dll
+C:\Users\fanny\source\repos\Portafolio\Portafolio\obj\Debug\net6.0\Portafolio.csproj.CopyComplete
