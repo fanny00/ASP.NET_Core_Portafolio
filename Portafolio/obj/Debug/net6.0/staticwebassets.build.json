@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "TcMNeZRGZnlF2Xhbs0LFpfGm5Yt8cnLwm7EGA9f0pGc=",
+  "Hash": "B680J4f0NFZlxUzyTarT45v3TxuRDzoyu9Z7NjVbEbU=",
   "Source": "Portafolio",
   "BasePath": "_content/Portafolio",
   "Mode": "Default",
@@ -168,23 +168,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\imagenes\\foto.png"
-    },
-    {
-      "Identity": "C:\\Users\\fanny\\source\\repos\\Portafolio\\Portafolio\\wwwroot\\imagenes\\nyt (1).png",
-      "SourceId": "Portafolio",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fanny\\source\\repos\\Portafolio\\Portafolio\\wwwroot\\",
-      "BasePath": "_content/Portafolio",
-      "RelativePath": "imagenes/nyt (1).png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\imagenes\\nyt (1).png"
     },
     {
       "Identity": "C:\\Users\\fanny\\source\\repos\\Portafolio\\Portafolio\\wwwroot\\imagenes\\nyt.png",
