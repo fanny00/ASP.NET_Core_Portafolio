@@ -10,55 +10,29 @@ namespace Portafolio.Controllers
     {
         private readonly ILogger<HomeController> _logger;
         private readonly IRepositorioProyectos repositorioProyectos;
-        private readonly ServicioDelimitado servicioDelimitado;
-        private readonly ServicioTransitorio servicioTransitorio;
-        private readonly ServicioUnico servicioUnico;
-        private readonly ServicioDelimitado servicioDelimitado2;
-        private readonly ServicioTransitorio servicioTransitorio2;
-        private readonly ServicioUnico servicioUnico2;
+        
 
         public HomeController(ILogger<HomeController> logger, 
-            IRepositorioProyectos repositorioProyectos,
-            ServicioDelimitado servicioDelimitado,
-            ServicioTransitorio servicioTransitorio,
-            ServicioUnico servicioUnico,
-
-            ServicioDelimitado servicioDelimitado2,
-            ServicioTransitorio servicioTransitorio2,
-            ServicioUnico servicioUnico2)
+            IRepositorioProyectos repositorioProyectos)
         {
             _logger = logger;
             this.repositorioProyectos = repositorioProyectos;
-            this.servicioDelimitado = servicioDelimitado;
-            this.servicioTransitorio = servicioTransitorio;
-            this.servicioUnico = servicioUnico;
-            this.servicioDelimitado2 = servicioDelimitado2;
-            this.servicioTransitorio2 = servicioTransitorio2;
-            this.servicioUnico2 = servicioUnico2;
         }
 
         public IActionResult Index()
         {
+            _logger.LogTrace("Este es un mensaje de trace");
+            _logger.LogDebug("Este es un mensaje de debug");
+            _logger.LogInformation("Este es un mensaje de información");
+            _logger.LogWarning("Este es un mensaje de warning");
+            _logger.LogError("Este es un mensaje de error");
+            _logger.LogCritical("Este es un mensaje de critical");
+
             var proyectos = repositorioProyectos.ObtenerProyectos().Take(3).ToList();
-            var guidViewModel = new EjemploGuidViewModel()
-            {
-                Delimitado = servicioDelimitado.ObtenerGuid,
-                Transitorio = servicioTransitorio.ObtenerGuid,
-                Unico = servicioUnico.ObtenerGuid,
-            };
-
-            var guidViewModel2 = new EjemploGuidViewModel()
-            {
-                Delimitado = servicioDelimitado2.ObtenerGuid,
-                Transitorio = servicioTransitorio2.ObtenerGuid,
-                Unico = servicioUnico2.ObtenerGuid,
-            };
-
+            
             var modelo = new HomeIndexViewModel() 
             { 
-                Proyectos = proyectos,
-                EjemploGuid_1 = guidViewModel,
-                EjemploGuid_2 = guidViewModel2
+                Proyectos = proyectos
             };
 
             return View( modelo );
