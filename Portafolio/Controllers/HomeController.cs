@@ -36,7 +36,14 @@ namespace Portafolio.Controllers
             return View(proyectos);
         }
 
+        [HttpGet]
         public IActionResult Contacto()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult Contacto(ContactoViewModel contactoViewModel)
         {
             return View();
         }
